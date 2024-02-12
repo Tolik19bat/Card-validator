@@ -22,7 +22,7 @@ describe("enteringCardNumber", () => {
     browser = await puppeteer.launch({
       headless: "new",
       slowMo: 100,
-      // devtools: true,
+      devtools: true,
     });
 
     page = await browser.newPage();
