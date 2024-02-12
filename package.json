@@ -42,7 +42,10 @@
     "webpack-merge": "^5.10.0"
   },
   "description": "homework",
-  "repository": "git+ssh://git@github.com/Tolik19bat/Card-validator.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tolik19bat/Card-validator.git"
+  },
   "author": "Anatoly",
   "bugs": {
     "url": "https://github.com/Tolik19bat/Card-validator/issues"
